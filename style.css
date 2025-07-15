@@ -1,0 +1,99 @@
+/* style.css */
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f2f2f2;
+  color: #333;
+}
+
+header {
+  background-color: #6200ea;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav button {
+  background-color: white;
+  color: #6200ea;
+  border: 2px solid #6200ea;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav button:hover {
+  background-color: #6200ea;
+  color: white;
+}
+
+main#tools {
+  padding: 1rem;
+}
+
+.tool-section {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 1rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.tool-section h2 {
+  margin-top: 0;
+  color: #6200ea;
+}
+
+input[type="file"], input[type="text"], input[type="password"], button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+}
+
+button.primary {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button.primary:hover {
+  background-color: #4500b5;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  color: #777;
+  padding: 1rem;
+  background: #eee;
+}
+
+@media (max-width: 600px) {
+  nav button {
+    width: 100%;
+    max-width: 90%;
+  }
+}

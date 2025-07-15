@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PDF Toolkit Pro</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>📚 PDF Toolkit Pro</h1>
+    <nav>
+      <button onclick="showTool('text')">Text to PDF</button>
+      <button onclick="showTool('image')">Image to PDF</button>
+      <button onclick="showTool('merge')">Merge PDF</button>
+      <button onclick="showTool('compress')">Compress PDF</button>
+      <button onclick="showTool('protect')">Password Protect</button>
+      <button onclick="showTool('view')">View PDF</button>
+      <button onclick="showTool('edit')">Edit PDF</button>
+      <button onclick="showTool('files')">My Files</button>
+    </nav>
+  </header>
+
+  <main id="tools">
+    <!-- Tools will be loaded here -->
+  </main>
+
+  <footer>
+    <p>Made by Varun • Open Source</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+</body>
+</html>

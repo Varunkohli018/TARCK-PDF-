@@ -1,35 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Toolkit Pro</title>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
 </head>
 <body>
   <header>
     <h1>📚 PDF Toolkit Pro</h1>
     <nav>
-      <button onclick="showTool('text')">Text to PDF</button>
-      <button onclick="showTool('image')">Image to PDF</button>
-      <button onclick="showTool('merge')">Merge PDF</button>
-      <button onclick="showTool('compress')">Compress PDF</button>
-      <button onclick="showTool('protect')">Password Protect</button>
-      <button onclick="showTool('view')">View PDF</button>
-      <button onclick="showTool('edit')">Edit PDF</button>
-      <button onclick="showTool('files')">My Files</button>
+      <ul class="navbar">
+        <li><a href="#" onclick="showTool('text')">Text to PDF</a></li>
+        <li><a href="#" onclick="showTool('image')">Image to PDF</a></li>
+        <li><a href="#" onclick="showTool('merge')">Merge PDF</a></li>
+        <li><a href="#" onclick="showTool('compress')">Compress PDF</a></li>
+        <li><a href="#" onclick="showTool('protect')">Password Protect</a></li>
+        <li><a href="#" onclick="showTool('view')">View PDF</a></li>
+        <li><a href="#" onclick="showTool('edit')">Edit PDF</a></li>
+        <li><a href="#" onclick="showTool('files')">My Files</a></li>
+      </ul>
     </nav>
-  </header>
-
-  <main id="tools">
+  </header>  <main id="tools">
     <!-- Tools will be loaded here -->
-  </main>
-
-  <footer>
+  </main>  <footer>
     <p>Made by Varun • Open Source</p>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
-</body>
+  </footer>  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>  
 </html>
